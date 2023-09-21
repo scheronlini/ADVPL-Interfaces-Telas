@@ -13,7 +13,7 @@
                @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
     /*/
 
-User Function exButton()
+User Function uFButton()
 Local oDlg
 
 DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 400 , 900 PIXEL

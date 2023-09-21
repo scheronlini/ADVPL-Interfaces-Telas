@@ -15,7 +15,7 @@
            @ ... GET   https://tdn.engpro.totvs.com.br/display/tec/@+...+GET
     /*/
 
-User Function exEnchoice()
+User Function uFEnchoic()
 Local oDlg, oSay, oGet1
 Local cGet1 := Space(20)
 

@@ -13,7 +13,7 @@
            @ ...MSPanel   https://tdn.totvs.com/display/tec/@+...+MSPANEL
     /*/
 
-User Function exMSPanel()
+User Function uFMSPanel()
 Local oDlg
 
 DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 400 , 900 PIXEL

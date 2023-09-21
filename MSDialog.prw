@@ -14,7 +14,7 @@
     @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
     /*/
 
-User Function exMsDialog()
+User Function uFMsDialo()
 
 MsDialog1()
 MsDialog2()

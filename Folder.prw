@@ -14,7 +14,7 @@
            @ ...FOLDER https://tdn.engpro.totvs.com.br/display/tec/@+...+FOLDER
     /*/
 
-User Function exFolder()
+User Function uFFolder()
 Local oDlg, oFolder
 
 DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 600 , 800 PIXEL

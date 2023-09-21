@@ -17,7 +17,7 @@
            RPCSetEnv() https://tdn.totvs.com/pages/releaseview.action?pageId=6814927
     /*/
 
-User Function exConsPadrao()
+User Function uFConsPadr()
     If Select("SX2") == 0
         RPCSetEnv("99", "01", "Administrador", "", "")
     EndIf
