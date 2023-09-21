@@ -44,3 +44,5 @@ lPixel  := .T.
     ,/*bValid*/,/*nClrText*/,/*nClrBack*/,lPixel,/*oFont*/,/*uParam15*/,/*uParam16*/,/*bWhen*/,/*uParam18*/,/*uParam19*/,/*uParam20*/,/*uParam21*/,'cCombo')
 
 ACTIVATE MsDialog oDlg1 CENTERED
+
+Return
