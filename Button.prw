@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exButton
+/*/{Protheus.doc} User Function uFButton
    Criação de um botão dentro de uma janela do tipo MSDialog
     @type  Function
     @author Scheron Martins
