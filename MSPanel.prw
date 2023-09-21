@@ -36,7 +36,7 @@ nColFim := 160
 cTitulo := "Painel 1"
 nColorText := CLR_BLACK
 nColorFund := CLR_HGRAY
-@ nLinIni, nColIni MSPANEL oMsPan1 SIZE nLinFim, nColFim OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT cTitulo
+@ nLinIni, nColIni MSPANEL oMsPan1 SIZE nLinFim, nColFim OF oDlg COLOR nColorText, nColorFund  PROMPT cTitulo
 
 nLinIni := 30
 nColIni := 250
@@ -45,7 +45,7 @@ nColFim := 160
 cTitulo := "Painel 2"
 nColorText := CLR_BLACK
 nColorFund := CLR_HGRAY
-@ nLinIni, nColIni MSPANEL oMsPan2 SIZE nLinFim, nColFim OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT cTitulo
+@ nLinIni, nColIni MSPANEL oMsPan2 SIZE nLinFim, nColFim OF oDlg COLOR nColorText, nColorFund PROMPT cTitulo
 
 ACTIVATE MsDialog oDlg CENTERED
 
