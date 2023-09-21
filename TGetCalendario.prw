@@ -17,7 +17,7 @@
            RPCSetEnv() https://tdn.totvs.com/pages/releaseview.action?pageId=6814927
     /*/
 
-User Function uFCalendar
+User Function uFCalendar()
 
 Local lHasButton
 Local nLinIni
@@ -68,6 +68,6 @@ Local cReadVar
     nColFim := 6  
     cTitulo := "Digite a Data"
     @ nLinIni, nColIni SAY oSay PROMPT cTitulo  SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
-    
+
     ACTIVATE MsDialog oDlg CENTERED
 Return
