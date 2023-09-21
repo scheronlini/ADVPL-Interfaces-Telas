@@ -57,7 +57,10 @@
 		},
 		{
 			"label": "U_uFComboBox"
+		},
+		{
+			"label": "U_uFCalendar"
 		}
 	],
-	"lastProgramExecuted": "U_uFComboBox"
+	"lastProgramExecuted": "U_uFCalendar"
 }
