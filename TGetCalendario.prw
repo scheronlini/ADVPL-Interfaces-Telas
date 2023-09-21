@@ -1,20 +1,18 @@
 #include 'TOTVS.CH'
 
 /*/{Protheus.doc} User Function exConsPadrao
-   Criação uma Consulta Padrão com TGET
+    Criação de Função com objeto TGet mostrando Calendario
     @type  Function
     @author Scheron Martins
-    @since 20/09/2023
+    @since 21/09/2023
     @version 1.0
     @param Nenhum
     @return Vazio (nil)
-    @example Exemplo da utilizacao de uma Consulta Padrão com TGET
+    @example Exemplo da utilizacao da Função com objeto TGet mostrando Calendario
     @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
            @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
            @ ... SAY   https://tdn.engpro.totvs.com.br/display/tec/@+...+SAY
            TGet        https://tdn.totvs.com/display/tec/TGet
-           TGet Lupa   https://terminaldeinformacao.com/2023/02/15/por-qual-motivo-tgets-nao-mostram-o-icone-da-lupa/
-           RPCSetEnv() https://tdn.totvs.com/pages/releaseview.action?pageId=6814927
     /*/
 
 User Function uFCalendar()
