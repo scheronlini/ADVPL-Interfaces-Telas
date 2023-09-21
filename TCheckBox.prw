@@ -11,6 +11,7 @@
     @example Exemplo da utilizacao de uma Janela com o objeto do tipo TCheckBox que permite o usuario marcar e desmarcar.
         @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                TCheckBox   https://tdn.totvs.com/display/tec/TCheckBox
+               @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
 /*/
 
 User Function uFTCheckBo()

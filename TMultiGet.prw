@@ -11,6 +11,8 @@
     @example Exemplo da utilizacao do objeto do tipo TMultiGet com varias linhas disponiveis para digitação
         @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                TMultiGet   https://tdn.totvs.com/display/tec/TMultiGet
+               @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
+               @ ... SAY   https://tdn.engpro.totvs.com.br/display/tec/@+...+SAY
 /*/
 User Function uFTMultiGe()
 Local nLinIni
