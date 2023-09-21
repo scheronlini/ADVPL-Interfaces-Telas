@@ -12,29 +12,51 @@
     @return Vazio (nil)
     @example Exemplo da utilizacao de MSDialog
     @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
+           MSDialog    https://tdn.totvs.com/display/tec/MsDialog
     /*/
 
 User Function uFMsDialo()
 
-MsDialog1()
-MsDialog2()
+fMsDialog1()
+fMsDialog2()
 
-Return 
+Return
 
-static Function MsDialog1()
-Local oDlg1
+static Function fMsDialog1()
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
 
-DEFINE MsDialog oDlg1 TITLE "Tela Customizada 1" FROM 0,0 TO 550 , 1100 PIXEL
+nLinIni := 0
+nColIni := 0
+nLinFim := 550
+nColFim := 1100
+cTitulo := "Tela Customizada"
+DEFINE MsDialog oDlg1 TITLE cTitulo FROM nLinIni, nColIni TO nLinFim, nColFim PIXEL
 
 ACTIVATE MsDialog oDlg1 CENTERED
 //Quando habilitado a centralização, o from é considerado.
 Return
 
-static Function MsDialog2()
+static Function fMsDialog2()
 Local oDlg2
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
+Local lPixel
 
-oDlg2 := MsDialog():New(40, 500, 550, 1100, "Tela Customizada 2",,,,,,CLR_BLACK,,,.T.,,,,)
+nLinIni  := 40
+nColIni  := 500
+nLinFim  := 550
+nColFim  := 1100
+cTitulo  := "Tela Customizada"
+lPixel   := .T. 
+oDlg2 := MsDialog():New(nLinIni, nColIni, nLinFim, nColFim, cTitulo,/*uParam6*/,/*uParam7*/,/*uParam8*/,/*uParam9*/,/*nClrText*/,/*nClrBack*/,/*uParam12*/,/*oWnd*/,lPixel)
 
-ACTIVATE MsDialog oDlg2 
+ACTIVATE MsDialog oDlg2
 
 Return

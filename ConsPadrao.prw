@@ -18,28 +18,60 @@
     /*/
 
 User Function uFConsPadr()
+    
     If Select("SX2") == 0
         RPCSetEnv("99", "01", "Administrador", "", "")
     EndIf
  
-    fTela()
+    fTela()    
 Return
  
 Static Function fTela()
 
-    Local oDialogPvt
-    Local oGetObj7 
-    Local xGetObj7    := Space(TamSX3('B1_COD')[1])
+Local oGetObj7 
+Local xGetObj7
+Local lHasButton
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local bSetGet
+Local cTitulo
 
-    DEFINE MsDialog oDialogPvt TITLE "Tela Customizada" FROM 0,0 TO 281 , 358 PIXEL
-      
-    @ 49, 4 SAY oSay PROMPT 'Digite o que procura'  SIZE 70, 6 COLORS CLR_RED,CLR_WHITE OF oDialogPvt PIXEL 
+    nLinIni := 0
+    nColIni := 0
+    nLinFim := 281
+    nColFim := 358
+    cTitulo := "Tela Customizada"
+    DEFINE MsDialog oDlg TITLE cTitulo FROM nLinIni, nColIni TO nLinFim , nColFim PIXEL
+
+    nLinIni := 49
+    nColIni := 4
+    nLinFim := 70
+    nColFim := 6  
+    cTitulo := "Digite o que procura"
+    @ nLinIni, nColIni SAY oSay PROMPT cTitulo  SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
         
-    oGetObj7  := TGet():New(48, 74, {|u| Iif(PCount() > 0 , xGetObj7 := u, xGetObj7)}, oDialogPvt, 100, 10, /*cPict*/, /*bValid*/, /*nClrFore*/, /*nClrBack*/, , , , .T., /*uParam15*/, /*uParam16*/, /*bWhen*/, /*uParam18*/, /*uParam19*/, /*bChange*/, /*lReadOnly*/, /*lPassword*/, /*uParam23*/, /*cReadVar*/, /*uParam25*/, /*uParam26*/, /*uParam27*/, .T.)
+    nLinIni := 48
+    nColIni := 74
+    nLinFim := 100
+    nColFim := 10
+    bSetGet := {|u| Iif(PCount() > 0 , xGetObj7 := u, xGetObj7)}
+    xGetObj7    := Space(TamSX3('B1_COD')[1])  
+    lHasButton :=  .T.
+    lPixel := .T.
+    oGetObj7  := TGet():New(nLinIni, nColIni, bSetGet, oDlg, nLinFim, nColFim, /*cPict*/, /*bValid*/, /*nClrFore*/, /*nClrBack*/, /*oFont*/ ,;
+     /*uParam12*/ , /*uParam13*/, lPixel, /*uParam15*/, /*uParam16*/, /*bWhen*/, /*uParam18*/, /*uParam19*/, /*bChange*/, /*lReadOnly*/, /*lPassword*/,;
+      /*uParam23*/, /*cReadVar*/, /*uParam25*/, /*uParam26*/, /*uParam27*/, lHasButton )
     oGetObj7:cF3        := 'SB1'
 
-    @ 116, 88 BUTTON  oSair PROMPT "Botao para Sair" SIZE 70, 15 OF oDialogPvt PIXEL
+    nLinIni := 116
+    nColIni := 88
+    nLinFim := 70
+    nColFim := 15
+    cTitulo := "Botao para Sair"
+    @ nLinIni, nColIni BUTTON  oSair PROMPT cTitulo SIZE nLinFim, nColFim OF oDlg PIXEL
 
-    ACTIVATE MsDialog oDialogPvt CENTERED
+    ACTIVATE MsDialog oDlg CENTERED
 
 Return

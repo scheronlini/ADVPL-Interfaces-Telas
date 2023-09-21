@@ -33,7 +33,28 @@
 		},
 		{
 			"label": "U_exMSPanel"
+		},
+		{
+			"label": "U_uFButton"
+		},
+		{
+			"label": "U_uFConsPadr"
+		},
+		{
+			"label": "U_uFEnchoic"
+		},
+		{
+			"label": "U_ufFolder"
+		},
+		{
+			"label": "U_uFMsDialo"
+		},
+		{
+			"label": "U_uFMsPanel"
+		},
+		{
+			"label": "U_ftela"
 		}
 	],
-	"lastProgramExecuted": "U_exMSPanel"
+	"lastProgramExecuted": "U_uFConsPadr"
 }

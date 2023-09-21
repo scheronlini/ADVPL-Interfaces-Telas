@@ -16,16 +16,39 @@
     /*/
 
 User Function uFEnchoic()
-Local oDlg, oSay, oGet1
 Local cGet1 := Space(20)
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
 
-DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 600 , 800 PIXEL
+nLinIni := 0
+nColIni := 0
+nLinFim := 600
+nColFim := 800
+cTitulo := "Tela Customizada"
+DEFINE MsDialog oDlg TITLE cTitulo FROM nLinIni, nColIni TO nLinFim, nColFim PIXEL
 
-@ 260, 260 BUTTON Confirmar PROMPT "Sair" SIZE 114, 21 OF oDlg PIXEL
+nLinIni := 260
+nColIni := 260
+nLinFim := 114
+nColFim := 21
+cTitulo := "Sair"
+@ nLinIni, nColIni BUTTON oButton PROMPT cTitulo SIZE nLinFim, nColFim OF oDlg PIXEL
 
-@ 30, 10 SAY oSay PROMPT 'Say' SIZE 200,20 COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
+nLinIni := 30
+nColIni := 10
+nLinFim := 200
+nColFim := 20
+cTitulo := "Say"
+@ nLinIni, nColIni SAY oSay PROMPT cTitulo SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
 
-@ 20, 40 GET oGet1 VAR cGet1 SIZE 200,20 OF oDlg PIXEL
+nLinIni := 20
+nColIni := 40
+nLinFim := 200
+nColFim := 20
+@ nLinIni, nColIni GET oGet1 VAR cGet1 SIZE nLinFim, nColFim OF oDlg PIXEL
 
 ACTIVATE MsDialog oDlg CENTERED
 

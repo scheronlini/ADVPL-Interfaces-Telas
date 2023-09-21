@@ -15,13 +15,32 @@
     /*/
 
 User Function uFFolder()
-Local oDlg, oFolder
 
-DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 600 , 800 PIXEL
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
 
-@ 260, 260 BUTTON Confirmar PROMPT "Sair" SIZE 114, 21 OF oDlg PIXEL
+nLinIni := 0
+nColIni := 0
+nLinFim := 600
+nColFim := 800
+cTitulo := "Tela Customizada"
+DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM nLinIni, nColIni TO nLinFim , nColFim PIXEL
 
-@ 10,15 FOLDER oFolder SIZE 260, 200 OF oDlg  PIXEL
+nLinIni := 260
+nColIni := 260
+nLinFim := 114
+nColFim := 21
+cTitulo := "Sair"
+@ nLinIni, nColIni BUTTON oButton PROMPT cTitulo SIZE nLinFim, nColFim OF oDlg PIXEL
+
+nLinIni := 10
+nColIni := 15
+nLinFim := 260
+nColFim := 200
+@ nLinIni, nColIni FOLDER oFolder SIZE nLinFim, nColFim OF oDlg  PIXEL
 
 oFolder:AddItem("Pasta 01",.T.)
 oFolder:AddItem("Pasta 02",.T.)

@@ -14,13 +14,38 @@
     /*/
 
 User Function uFMSPanel()
-Local oDlg
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
+Local nColorText
+Local nColorFund
 
-DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 400 , 900 PIXEL
+nLinIni := 0
+nColIni := 0
+nLinFim := 400
+nColFim := 900
+cTitulo := "Tela Customizada"
+DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM nLinIni, nColIni TO nLinFim, nColFim PIXEL
 
-@ 029, 021 MSPANEL painel1 SIZE 178, 160 OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT "Painel 1"
+nLinIni := 30
+nColIni := 20
+nLinFim := 178
+nColFim := 160
+cTitulo := "Painel 1"
+nColorText := CLR_BLACK
+nColorFund := CLR_HGRAY
+@ nLinIni, nColIni MSPANEL oMsPan1 SIZE nLinFim, nColFim OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT cTitulo
 
-@ 029, 250 MSPANEL painel2 SIZE 178, 160 OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT "Painel 2"
+nLinIni := 30
+nColIni := 250
+nLinFim := 178
+nColFim := 160
+cTitulo := "Painel 2"
+nColorText := CLR_BLACK
+nColorFund := CLR_HGRAY
+@ nLinIni, nColIni MSPANEL oMsPan2 SIZE nLinFim, nColFim OF oDlg COLOR CLR_BLACK, CLR_HGRAY PROMPT cTitulo
 
 ACTIVATE MsDialog oDlg CENTERED
 

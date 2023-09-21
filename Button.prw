@@ -14,11 +14,25 @@
     /*/
 
 User Function uFButton()
-Local oDlg
+Local nLinIni
+Local nColIni
+Local nLinFim
+Local nColFim
+Local cTitulo
 
-DEFINE MsDialog oDlg TITLE "Tela Customizada" FROM 0,0 TO 400 , 900 PIXEL
+nLinIni := 0
+nColIni := 0
+nLinFim := 400
+nColFim := 900
+cTitulo := "Tela Customizada"
+DEFINE MsDialog oDlg TITLE cTitulo FROM nLinIni , nColIni TO nLinFim, nColFim PIXEL
 
-@ 150, 300 BUTTON Confirmar PROMPT "Botao para Sair" SIZE 114, 21 OF oDlg PIXEL
+nLinIni := 150
+nColIni := 300
+nLinFim := 114
+nColFim := 21
+cTitulo := "Botao para Sair"
+@ nLinIni, nColIni BUTTON oButton PROMPT cTitulo SIZE nLinFim, nColFim OF oDlg PIXEL
 
 ACTIVATE MsDialog oDlg CENTERED
 
