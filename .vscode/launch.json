@@ -11,5 +11,29 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"label": "U_exButton"
+		},
+		{
+			"label": "U_exConsPadrao"
+		},
+		{
+			"label": "U_exEnchoice"
+		},
+		{
+			"label": "U_exfolder"
+		},
+		{
+			"label": "U_MSdialog"
+		},
+		{
+			"label": "U_MSPanel"
+		},
+		{
+			"label": "U_exMSPanel"
+		}
+	],
+	"lastProgramExecuted": "U_exMSPanel"
 }
