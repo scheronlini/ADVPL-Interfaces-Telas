@@ -54,7 +54,10 @@
 		},
 		{
 			"label": "U_ftela"
+		},
+		{
+			"label": "U_uFComboBox"
 		}
 	],
-	"lastProgramExecuted": "U_uFConsPadr"
+	"lastProgramExecuted": "U_uFComboBox"
 }
