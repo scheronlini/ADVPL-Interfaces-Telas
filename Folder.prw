@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exFolder
+/*/{Protheus.doc} User Function uFFolder
     Criação um folder com 5 abas dentro de uma janela do tipo MSDialog com um botão para sair
     @type  Function
     @author Scheron Martins
