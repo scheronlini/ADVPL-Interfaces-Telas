@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTWBrowCh
+/*/{Protheus.doc} User Function fTWBChcL
    Criacao de um objeto do tipo grade com registros em linhas e informacoes em colunas e Coluna CheckBox e Legenda.
     @type  Function
     @author Scheron Martins
@@ -13,7 +13,7 @@
                @ ...BUTTON   https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
                TWBrowse      https://tdn.totvs.com/display/tec/TWBrowse
     /*/
-User Function uFTWBChcLe()
+User Function fTWBChcL()
 Local nLinIni
 Local nColIni
 Local nLinFim

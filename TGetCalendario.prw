@@ -1,7 +1,7 @@
 #include 'TOTVS.CH'
 
 /*/{Protheus.doc} User Function exConsPadrao
-    Criação de Função com objeto TGet mostrando Calendario
+    Criacao de Funcao com objeto TGet mostrando Calendario
     @type  Function
     @author Scheron Martins
     @since 21/09/2023
@@ -15,7 +15,7 @@
            TGet        https://tdn.totvs.com/display/tec/TGet
     /*/
 
-User Function uFCalendar()
+User Function fCalendar()
 
 Local lHasButton
 Local nLinIni

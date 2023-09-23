@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFMsBrGetB
+/*/{Protheus.doc} User Function fMsBrGet
    Criação de um objeto do tipo grade com registros em linhas e informações em colunas.
     @type  Function
     @author Scheron Martins
@@ -15,7 +15,7 @@
                TCColumn      https://tdn.totvs.com/display/tec/TCColumn
     /*/
 
-User Function uFMsBrGetB()
+User Function fMsBrGet()
 Local nLinIni
 Local nColIni
 Local nLinFim

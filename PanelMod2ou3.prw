@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exMSPanel
+/*/{Protheus.doc} User Function fMSPan2
     Criacao de tres paineis dentro de uma janela do tipo MSDialog
     @type  Function
     @author Scheron Martins
@@ -15,7 +15,7 @@
            @ ... SAY      https://tdn.engpro.totvs.com.br/display/tec/@+...+SAY
 /*/ 
 
-User Function uFMSPa2e3()
+User Function fMSPan2()
 Local nLinIni
 Local nColIni
 Local nLinFim
@@ -51,7 +51,7 @@ nLinIni := 5
 nColIni := 70
 nLinFim := 60
 nColFim := 50
-cTitulo1 := "Cabeçalho"
+cTitulo1 := "Cabecalho"
 @ nLinIni, nColIni SAY oSay1 PROMPT cTitulo1 SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oMsPan1 PIXEL
 
 nLinIni := 60
@@ -83,7 +83,7 @@ nLinIni := 5
 nColIni := 70
 nLinFim := 60
 nColFim := 50
-cTitulo3 := "Rodapé"
+cTitulo3 := "Rodape"
 @ nLinIni, nColIni SAY oSay3 PROMPT cTitulo3 SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oMsPan3 PIXEL
 
 ACTIVATE MsDialog oDlg CENTERED

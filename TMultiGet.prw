@@ -1,20 +1,20 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTMultiGe
-   Criação de uma Janela com o objeto do tipo TMultiGet com varias linhas disponiveis para digitação
+/*/{Protheus.doc} User Function fTMultiG
+   Criacao de uma Janela com o objeto do tipo TMultiGet com varias linhas disponiveis para digitacao
     @type  Function
     @author Scheron Martins
     @since 21/09/2023
     @version 1.0
     @param Nenhum
     @return Vazio (nil)
-    @example Exemplo da utilizacao do objeto do tipo TMultiGet com varias linhas disponiveis para digitação
+    @example Exemplo da utilizacao do objeto do tipo TMultiGet com varias linhas disponiveis para digitacao
         @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                TMultiGet   https://tdn.totvs.com/display/tec/TMultiGet
                @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
                @ ... SAY   https://tdn.engpro.totvs.com.br/display/tec/@+...+SAY
 /*/
-User Function uFTMultiGe()
+User Function fTMultiG()
 Local nLinIni
 Local nColIni
 Local nLinFim

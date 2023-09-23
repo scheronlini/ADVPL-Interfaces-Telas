@@ -60,7 +60,150 @@
 		},
 		{
 			"label": "U_uFCalendar"
+		},
+		{
+			"label": "U_uFMultige"
+		},
+		{
+			"label": "U_uFTMultige"
+		},
+		{
+			"label": "U_uFTCheckBo"
+		},
+		{
+			"label": "U_uFTRadMen"
+		},
+		{
+			"label": "U_uFMsBrGetB"
+		},
+		{
+			"args": [],
+			"label": "U_uFTWBrowse"
+		},
+		{
+			"label": "U_uFTWBrowLe"
+		},
+		{
+			"args": [],
+			"label": "U_uFTWBrowLe"
+		},
+		{
+			"label": "U_uFTWBrowCh"
+		},
+		{
+			"args": [],
+			"label": "U_FWBrw1"
+		},
+		{
+			"label": "U_uFTWBChcLe"
+		},
+		{
+			"label": "U_uFAxCad"
+		},
+		{
+			"label": "sigamdi"
+		},
+		{
+			"label": "u_uFFoldCad"
+		},
+		{
+			"label": "u_uFMSPa2e3"
+		},
+		{
+			"args": [],
+			"label": "u_uFMSPa2e3"
+		},
+		{
+			"label": "u_uFTelaCust"
+		},
+		{
+			"args": [],
+			"label": "u_uFTelaC"
+		},
+		{
+			"label": "u_uFTWBrowse1"
+		},
+		{
+			"args": [],
+			"label": "U_uFComboBox"
+		},
+		{
+			"args": [],
+			"label": "U_fbutton"
+		},
+		{
+			"args": [],
+			"label": "U_fMSPanel"
+		},
+		{
+			"args": [],
+			"label": "U_fFolder"
+		},
+		{
+			"args": [],
+			"label": "U_fEnchoic"
+		},
+		{
+			"args": [],
+			"label": "U_fConsPad"
+		},
+		{
+			"args": [],
+			"label": "U_fCombBox"
+		},
+		{
+			"args": [],
+			"label": "U_fCalendar"
+		},
+		{
+			"args": [],
+			"label": "U_fTMultiG"
+		},
+		{
+			"args": [],
+			"label": "U_fTCheckB"
+		},
+		{
+			"args": [],
+			"label": "U_fTRadMen"
+		},
+		{
+			"args": [],
+			"label": "U_fMsBrGet"
+		},
+		{
+			"args": [],
+			"label": "U_fTWBrows"
+		},
+		{
+			"args": [],
+			"label": "U_fTWBroLe"
+		},
+		{
+			"args": [],
+			"label": "U_fTWBrowC"
+		},
+		{
+			"args": [],
+			"label": "U_fTWBChcL"
+		},
+		{
+			"args": [],
+			"label": "U_fAxCad"
+		},
+		{
+			"args": [],
+			"label": "U_fFoldCad"
+		},
+		{
+			"args": [],
+			"label": "U_fMSPan2"
+		},
+		{
+			"args": [],
+			"label": "U_fTelaC"
 		}
 	],
-	"lastProgramExecuted": "U_uFCalendar"
+	"lastProgramExecuted": "U_fTelaC",
+	"lastProgramArguments": []
 }

@@ -15,7 +15,7 @@
            @ ... SAY      https://tdn.engpro.totvs.com.br/display/tec/@+...+SAY
            @ ... GET   https://tdn.engpro.totvs.com.br/display/tec/@+...+GET
     /*/
-User Function uFTelaC()
+User Function fTelaC()
     
     If Select("SX2") == 0
         RPCSetEnv("99", "01", "Administrador", "", "")
@@ -32,7 +32,7 @@ Local nColFim
 Local cTitulo
 Local nColorText
 Local nColorFund
-Local cGet1 := "99.999,99" + Space(20)
+Local cGet1 := "99.999,99" + Space(10)
 
 nLinIni := 0
 nColIni := 0

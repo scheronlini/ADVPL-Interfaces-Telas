@@ -1,19 +1,19 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTWBrowCh
-   Criação de um objeto do tipo grade com registros em linhas e informações em colunas e Coluna CheckBox.
+/*/{Protheus.doc} User Function fTWBrowC
+   Criacao de um objeto do tipo grade com registros em linhas e informacoes em colunas e Coluna CheckBox.
     @type  Function
     @author Scheron Martins
     @since 22/09/2023
     @version 1.0
     @param Nenhum
     @return Vazio (nil)
-    @example Exemplo da Criação de um objeto do tipo grade com registros em linhas e informações em colunas e Coluna CheckBox.
+    @example Exemplo da Criacao de um objeto do tipo grade com registros em linhas e informacoes em colunas e Coluna CheckBox.
         @see : MSDialog()    https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                @ ...BUTTON   https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
                TWBrowse      https://tdn.totvs.com/display/tec/TWBrowse
     /*/
-User Function uFTWBrowCh()
+User Function fTWBrowC()
 Local nLinIni
 Local nColIni
 Local nLinFim

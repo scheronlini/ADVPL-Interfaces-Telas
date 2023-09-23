@@ -1,7 +1,7 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exEnchoice
-   Criação uma Enchoice
+/*/{Protheus.doc} User Function fEnchoic
+   Criacao uma Enchoice
     @type  Function
     @author Scheron Martins
     @since 20/09/2023
@@ -15,8 +15,8 @@
            @ ... GET   https://tdn.engpro.totvs.com.br/display/tec/@+...+GET
     /*/
 
-User Function uFEnchoic()
-Local cGet1 := Space(20)
+User Function fEnchoic()
+Local cGet1 := "Get" + Space(20)
 Local nLinIni
 Local nColIni
 Local nLinFim

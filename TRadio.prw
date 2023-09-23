@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTRadMen
+/*/{Protheus.doc} User Function fTRadMen
    Criação de uma Janela com o objeto do tipo TRadMenu que permite o usuario marcar e desmarcar uma opção por vez, com modelo Radio.
     @type  Function
     @author Scheron Martins
@@ -14,7 +14,7 @@
                TRadMenu    https://tdn.totvs.com/display/tec/TRadMenu
                @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
 /*/
-User Function uFTRadMen()
+User Function fTRadMen()
 Local nLinIni
 Local nColIni
 Local nLinFim

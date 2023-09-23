@@ -1,6 +1,6 @@
 #include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exConsPadrao
+/*/{Protheus.doc} User Function fConsPad
    Criação uma Consulta Padrão com TGET
     @type  Function
     @author Scheron Martins
@@ -17,7 +17,7 @@
            RPCSetEnv() https://tdn.totvs.com/pages/releaseview.action?pageId=6814927
     /*/
 
-User Function uFConsPadr()
+User Function fConsPad()
     
     If Select("SX2") == 0
         RPCSetEnv("99", "01", "Administrador", "", "")
@@ -49,8 +49,8 @@ Local cTitulo
     nColIni := 4
     nLinFim := 70
     nColFim := 6  
-    cTitulo := "Digite o que procura"
-    @ nLinIni, nColIni SAY oSay PROMPT cTitulo  SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
+    cTitulo1 := "Say"
+    @ nLinIni, nColIni SAY oSay PROMPT cTitulo1  SIZE nLinFim, nColFim COLORS CLR_RED,CLR_WHITE OF oDlg PIXEL 
         
     nLinIni := 48
     nColIni := 74

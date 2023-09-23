@@ -1,7 +1,7 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exMSPanel
-    Criação de dois paineis dentro de uma janela do tipo MSDialog
+/*/{Protheus.doc} User Function fMSPanel
+    Criacao de dois paineis dentro de uma janela do tipo MSDialog
     @type  Function
     @author Scheron Martins
     @since 20/09/2023
@@ -13,7 +13,7 @@
            @ ...MSPanel   https://tdn.totvs.com/display/tec/@+...+MSPANEL
     /*/
 
-User Function uFMSPanel()
+User Function fMSPanel()
 Local nLinIni
 Local nColIni
 Local nLinFim

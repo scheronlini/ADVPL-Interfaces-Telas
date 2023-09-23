@@ -1,8 +1,8 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function exMsDialog
+/*/{Protheus.doc} User Function fMsDialo
     Chama 2 Static functions
-    Nestas Static functions, s√o mostradas 2 formas de criar Janela MSDialog 
+    Nestas Static functions, sao mostradas 2 formas de criar Janela MSDialog 
     com algumas caracteriscas diferentes.
     @type  Function
     @author Scheron Martins
@@ -15,7 +15,7 @@
            MSDialog    https://tdn.totvs.com/display/tec/MsDialog
     /*/
 
-User Function uFMsDialo()
+User Function fMsDialo()
 
 fMsDialog1()
 fMsDialog2()

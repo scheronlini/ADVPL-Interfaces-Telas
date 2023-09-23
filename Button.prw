@@ -8,12 +8,12 @@
     @version 1.0
     @param Nenhum
     @return Vazio (nil)
-    @example Exemplo da utilizacao de Botão
+    @example Exemplo da utilizacao de Botao
         @see : MSDialog()  https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
     /*/
 
-User Function uFButton()
+User Function fButton()
 Local nLinIni
 Local nColIni
 Local nLinFim

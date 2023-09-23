@@ -1,7 +1,7 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTCheckBo
-   Criação de uma Janela com o objeto do tipo TCheckBox que permite o usuario marcar e desmarcar.
+/*/{Protheus.doc} User Function fTCheckB
+   Criacao de uma Janela com o objeto do tipo TCheckBox que permite o usuario marcar e desmarcar.
     @type  Function
     @author Scheron Martins
     @since 21/09/2023
@@ -14,7 +14,7 @@
                @ ...BUTTON https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
 /*/
 
-User Function uFTCheckBo()
+User Function fTCheckB()
 Local nLinIni
 Local nColIni
 Local nLinFim

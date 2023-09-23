@@ -1,7 +1,7 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFFoldCad
-    Criação um folder com um texto(say) dentro de uma janela do tipo MSDialog com um botão para sair
+/*/{Protheus.doc} User Function fFoldCad
+    Criação um folder(Aba) com um texto(say) dentro de uma janela do tipo MSDialog com um botão para sair
     @type  Function
     @author Scheron Martins
     @since 20/09/2023
@@ -14,7 +14,7 @@
            @ ...FOLDER https://tdn.engpro.totvs.com.br/display/tec/@+...+FOLDER
     /*/
 
-User Function uFFoldCad()
+User Function fFoldCad()
 
 Local nLinIni
 Local nColIni

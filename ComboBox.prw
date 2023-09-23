@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFComboBox
+/*/{Protheus.doc} User Function fComboBox
    Criação de uma tela com ComboBox
     @type  Function
     @author Scheron Martins
@@ -13,12 +13,13 @@
                TComboBox   https://tdn.totvs.com/display/tec/TComboBox 
 /*/
 
-User Function uFComboBox()
+User Function fCombBox()
 Local nLinIni
 Local nColIni
 Local nLinFim
 Local nColFim
 Local cTitulo
+Local cTitulo1
 Local aItems
 Local cCombo
 Local bSetGet
@@ -32,7 +33,14 @@ cTitulo := "Tela Customizada"
 DEFINE MsDialog oDlg1 TITLE cTitulo FROM nLinIni, nColIni TO nLinFim, nColFim PIXEL
 
 nLinIni := 2
-nColIni := 2
+nColIni := 6
+nLinFim := 20
+nColFim := 6  
+cTitulo1 := "Say"
+@ nLinIni, nColIni SAY oSay PROMPT cTitulo1  SIZE nLinFim, nColFim COLORS CLR_BLACK,CLR_WHITE OF oDlg1 PIXEL
+
+nLinIni := 2
+nColIni := 40
 nLinFim := 100
 nColFim := 20
 aItems  := {'Item1','Item2','Item3'}

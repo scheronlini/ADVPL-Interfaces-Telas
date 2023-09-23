@@ -1,6 +1,6 @@
 #Include 'TOTVS.CH'
 
-/*/{Protheus.doc} User Function uFTWBrowse
+/*/{Protheus.doc} User Function fTWBrows
    Criação de um objeto do tipo grade com registros em linhas e informações em colunas.
     @type  Function
     @author Scheron Martins
@@ -8,12 +8,12 @@
     @version 1.0
     @param Nenhum
     @return Vazio (nil)
-    @example Exemplo da Criação de um objeto do tipo grade com registros em linhas e informações em colunas.
+    @example Exemplo da Criacao de um objeto do tipo grade com registros em linhas e informacoes em colunas.
         @see : MSDialog()    https://tdn.totvs.com/pages/releaseview.action?pageId=24346988
                @ ...BUTTON   https://tdn.totvs.com/pages/releaseview.action?pageId=23889154
                TWBrowse      https://tdn.totvs.com/display/tec/TWBrowse
     /*/
-User Function uFTWBrowse()
+User Function fTWBrows()
 Local nLinIni
 Local nColIni
 Local nLinFim
