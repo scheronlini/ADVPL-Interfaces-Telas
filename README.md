@@ -29,6 +29,19 @@ Este Projeto trata-se de Exemplos de Interfaces em ADVPL baseado na documentaç�
   
   •	MBROWSE
 
+  •	FWDialogModal
+  
+  •	FilBrowse
+  
+  •	FWLegend
+  
+  •	MsSelect()
+  
+  •	MsExplorer()
+  
+  •	MarkBrow
+
+
 **Funções de GRID digitáveis:**
 
   •	MSGETDB
