@@ -124,9 +124,6 @@ Este Projeto trata-se de Exemplos de Interfaces em ADVPL baseado na documenta√ß√
 ![Instance](https://github.com/scheronlini/assets/blob/main/MsDialog.jpg)
 
 
-![Instance](https://github.com/scheronlini/assets/blob/main/AxCadastro.jpg)
-
-
 ![Instance](https://github.com/scheronlini/assets/blob/main/Enchoice.jpg)
 
 
@@ -134,6 +131,9 @@ Este Projeto trata-se de Exemplos de Interfaces em ADVPL baseado na documenta√ß√
 
 
 ![Instance](https://github.com/scheronlini/assets/blob/main/TRadio.jpg)
+
+
+![Instance](https://github.com/scheronlini/assets/blob/main/Button.jpg)
 
 
 ![Instance](https://github.com/scheronlini/assets/blob/main/EnchoiceBar.jpg)
@@ -154,9 +154,29 @@ Este Projeto trata-se de Exemplos de Interfaces em ADVPL baseado na documenta√ß√
 ![Instance](https://github.com/scheronlini/assets/blob/main/TFolder.jpg)
 
 
+![Instance](https://github.com/scheronlini/assets/blob/main/AxCadastro.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/FWBROWSE.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/FWDialogModal.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/FWLegend.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/Filbrowse.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/MarkBrow.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/MsExplorer.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/MsSelect.jpg)
+
+![Instance](https://github.com/scheronlini/assets/blob/main/TWBrowse.png)
+
+
+
 
 # Tecnologias utilizadas
-## Back end
+- Linguagem ADVPL
 - VSCode
 - AppServer
 - SQL
